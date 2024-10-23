@@ -21,12 +21,14 @@ The WSDL will be available on: http://localhost:8080/ws/pokemon.wsdl
 
 
 Application Structure
+
 *Presentation Layer: Controller that handle requests and responses.
 *Business Logic Layer: Service that process business logic.
 *Data Access Layer: Repository that interact with the REST API.
 
 
 RESTful API Consumption
+
 *Use HttpClient to consume the Pokemon API and obtain paginated results.
 
 *Exposing a SOAP Service
